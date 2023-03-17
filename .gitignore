@@ -1,0 +1,23 @@
+*.pdf
+*.o
+*.a
+.idea/*
+*.vscode
+*.out
+B-PDG-300_*
+
+# Test
+*.gcno
+*.gcda
+unit_tests
+*.log
+
+!src/nm/**/
+!src/objdump/**/
+my_nm
+my_objdump
+
+.clang-format
+test
+real
+tests/libmy_malloc.so.test
